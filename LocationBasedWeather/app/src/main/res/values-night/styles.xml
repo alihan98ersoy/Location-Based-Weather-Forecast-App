@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. values-night.xml -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orangeDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert"/>
+
+    <style name="MySwitch">
+        <item name="colorControlActivated">@color/switchColor</item>
+    </style>
+
+</resources>

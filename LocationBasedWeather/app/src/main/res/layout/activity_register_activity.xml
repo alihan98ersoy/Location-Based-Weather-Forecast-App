@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".viewmodels.register_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textAlignment="center"
+            android:textColor="@color/daynight_textColor"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailITIL"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="40dp">
+
+            <EditText
+                android:id="@+id/EmailEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/daynight_textColor"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="316dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordITIL"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="40dp"
+            android:layout_below="@+id/emailITIL"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/PasswordEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/daynight_textColor"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="316dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordITIL"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:drawablePadding="5dp"
+            android:shadowColor="@color/colorAccent"
+            android:textColor="@color/daynight_textColor"
+            android:text="@string/register" />
+        <!--android:drawableLeft="@drawable/name" -->
+
+
+        <TextView
+            android:id="@+id/have_accountTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register"
+            android:layout_marginTop="30dp"
+            android:text="@string/alreadyregistered"
+            android:textAlignment="center"
+            android:textColor="@color/daynight_textColor" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00574B</color>
+    <color name="colorPrimaryDark">#003d34</color>
+    <color name="colorAccent">#Ffcc00</color>
+    <color name="orange">#ff8200</color>
+    <color name="orangeDark">#f77000</color>
+    <color name="daynight_textColor">#FFFFFF</color>
+    <color name="switchColor">#CCCCCC</color>
+
+    <color name="backgroundColor">#000000</color>
+    <color name="buttontextcolor">#555555</color>
+    <color name="transparentWhite">#B3FFFFFF</color>
+</resources>

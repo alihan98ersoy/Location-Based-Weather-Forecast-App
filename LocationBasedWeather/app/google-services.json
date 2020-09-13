@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "864751030415",
+    "firebase_url": "https://locationbasedweatherfore-58436.firebaseio.com",
+    "project_id": "locationbasedweatherfore-58436",
+    "storage_bucket": "locationbasedweatherfore-58436.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864751030415:android:5442101c4baa943d22e0fa",
+        "android_client_info": {
+          "package_name": "com.alihan98ersoy.locationbasedweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864751030415-31j08q3rltmpk1ejv1j2po7ir79tkp6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alihan98ersoy.locationbasedweather",
+            "certificate_hash": "d0bf8d603054670aa9d974dd8da4639992b9a03f"
+          }
+        },
+        {
+          "client_id": "864751030415-8lu5qemo6mv8tk1u086agcuiv6jf1495.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZPc5tvfWESU9O-0GMmeaUe9sNrv1isVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864751030415-8lu5qemo6mv8tk1u086agcuiv6jf1495.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
