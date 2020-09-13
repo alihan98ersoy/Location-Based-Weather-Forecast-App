@@ -3,7 +3,7 @@
 
 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/Xm328YHviKI)
+[![Watch the video](https://raw.githubusercontent.com/alihan98ersoy/Location-Based-Weather-Forecast-App/master/LocationBasedWeather/app/src/main/res/drawable-xxxhdpi/ic_shortcut_ic_wi_day_haze.png)](https://youtu.be/Xm328YHviKI)
 
 ## Description:
 
